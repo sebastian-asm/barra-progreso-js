@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 50%;
+    max-width: 720px;
+    margin: auto;
+    text-align: center;
+    font: 1em 'Quicksand';
+}
+a {
+    color: rgb(0, 0, 0);
+}
+header {
+    margin: 15px 0 30px 0;
+}
+section {
+    border-radius: 10px;
+    padding: 30px 10px 30px 10px;
+    margin-bottom: 30px;
+}
+        #seccion1 {
+            border: 2px solid rgb(125, 184, 122);
+        }
+        #seccion2 {
+            border: 2px solid rgb(184, 122, 122);
+        }
+section p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+span {
+    display: block;
+    font-weight: bold;
+}
+progress {
+    width: 90%;
+    height: 30px;
+}
+button {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}

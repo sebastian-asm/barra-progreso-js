@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Barra de progreso">
+    <meta name="description" content="Proyecto personal, barra de progreso básica en JavaScript.">
+    <meta name="author" content="Sebastián Sánchez">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Barra de progreso con JS</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Barra de progreso</h1>
+            <p>Barras de progreso básicas con JavaScript</p>
+        </header>
+        <section id="seccion1">
+            <div>
+                <p>Para animar esta barra, presiona el botón.</p>
+                <span id="porciento1">0%</span>
+                <progress value="0" max="100" id="barra1"></progress>
+            </div>
+            <div>
+                <button>Animar</button>
+            </div>
+        </section>
+        <section id="seccion2">
+            <div>
+                <p>Esta barra inicia automáticamente después de 2 segundos.</p>
+                <span id="porciento2">0%</span>
+                <progress value="0" max="100" id="barra2"></progress>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="http://www.sebastiansanchez.cl/" title="sebastiansanchez.cl" target="_blank">sebastiansanchez.cl</a>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
