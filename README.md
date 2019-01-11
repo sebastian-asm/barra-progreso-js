@@ -1,9 +1,9 @@
 # Barra de progreso básica con JS    
     
-**Barra de progreso** es un mini proyecto básico y personal creado con HTML, CSS y JavaScript Vanilla. Obteniendo el siguiente resultado:  
+**Barra de progreso** es un mini proyecto básico y personal creado con HTML, CSS y JavaScript Vanilla. Obteniendo los siguientes resultados:  
   
-1. Una barra se llena (o anima) una vez presionado el boton.    
-2. Otra barra se anima automaticamente 2 segundos despues de estar cargada la pagina.
+1. Una barra se llena (o anima) una vez presionado el botón.    
+2. Otra barra se anima automáticamente 2 segundos después de estar cargada la página.
     
 El código queda disponible para quien le sea útil. :)
     
